@@ -22,7 +22,7 @@ public class Ch014 {
         }).max(Comparator.naturalOrder()).orElse(null);
 
 
-        System.out.println(numeroPrimos);
+        System.out.println("O maior número primo da lista é: " + numeroPrimos);
 
 
     }
